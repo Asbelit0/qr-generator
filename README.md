@@ -2,7 +2,10 @@
 Un generador de códigos QR en Python.
 
 ## Descripción
-Este proyecto permite generar códigos QR con diferentes tipos de contenido (texto, URL, email).
+Este proyecto permite generar códigos QR con diferentes tipos de contenido:
+- Genera códigos QR a partir de texto, URLs y correos electrónicos.
+- Validación de URLs y correos electrónicos.
+- Interfaz de usuario amigable.
 
 ## Requisitos
 * Tkinter
