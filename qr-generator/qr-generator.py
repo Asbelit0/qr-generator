@@ -10,6 +10,7 @@ class QRGenerator:
         self.window.title("Generador de QR")
         self.window.geometry("400x600")
         self.window.configure(bg="black")
+        self.window.resizable(False, False)
 
         # Entradas de texto
         self.text_label = tk.Label(self.window, text="A continuación ingrese si desea covertir a QR un texto, url o email:")
